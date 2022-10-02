@@ -1,0 +1,374 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(247,248,252);
+    /* max-width: fit-content; */
+}
+#navbar{
+    border: 1px thin #666666;
+    height: 95px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    
+}
+nav{ 
+}
+ul{
+    list-style: none;
+    margin-left: 700px;
+    margin-top: -25px;
+    display: flex;
+    gap: 28px;
+    font-family:'montserrat',helvetica, Arial, lucida;
+    font-size: 18px;    
+    padding: 0px 0px 40px;
+    -webkit-font-smoothing: antialiased;
+
+}
+#imgsqi{
+    width: fit-content;
+    height: 20vh;
+}
+#li1{
+    color: rgb(0, 217, 255);
+}
+li{
+    color: #00000099;
+}
+#contents{
+    background-color: rgb(247,248,252);
+    width: 100%;
+    height: 1000px;
+    /*float: right;*/
+    margin-top: -20;
+    align-items: center;
+    /*align-content: center;*/
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif ;
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+    color: #00000099;
+}
+#li1 a{
+    color: rgb(0, 217, 255);
+}
+/*#sqiI{
+        font-family: 'montserrat', helvetica, Arial, 'lucida unicode' ;
+        font-weight: lighter;
+}*/
+#sqih1{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif ;
+    /* font-weight: lighter; */
+    font-size: 40px;
+    line-height: 1.4em;
+    padding-bottom: 10px;
+    font-weight: 500;
+    padding: 0px 0px 10px;
+    margin-left: 100px;
+    margin-top: -250px;
+    display: block;
+    /*margin-inline-start: 0px;
+    margin-inline-end: 0px;*/
+    -webkit-font-smoothing: antialiased;
+    /* -moz-osx-font-smoot */
+}
+#p1s{
+    
+        /*display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        color: #666666;
+        vertical-align: baseline;
+        stroke-width: 1px;*/
+        font-size: 100%;
+        font-weight: 300;
+        font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+        color: #666666;
+        letter-spacing: 1px;
+        margin-top: -20px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        line-height: 2em;
+        padding-bottom: 1em;
+        -webkit-text-size-adjust: 100%;
+        text-align: left;
+        -webkit-font-smoothing: antialiased;
+    /* -moz-osx-font-smoot */
+}
+
+#know{
+    /* this is the know about us css desighn */
+    color: rgb(0, 217, 255);
+    font-weight: lighter;
+    /* margin-right: 100px; */
+}
+#solutionimg{
+width: 470px;
+margin-left: 30px;
+margin-top: -150px;
+}
+#background{
+    background-color: #181e5b;
+    height: 2000px;
+    width: 100%;
+    /* float: left; */
+
+    margin: 0px;
+    padding: 0px;
+    margin-top: -250px;
+}
+#reactor{
+    height: 10px;
+    width: 70%;
+    display: flex;
+}
+fieldset{
+    display: block;
+    width: 850px;
+    margin-left: 200px;
+    background-color: white;
+    align-items: center;
+    align-content: center;
+    font-weight: 300;
+    border-radius: 10px;
+    border: none;
+    border-top: 1px solid gray;
+    height: 250px;
+
+}
+h2{
+    font-size: 30px;
+    font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    color: #003BDE; 
+/*    font-size: 100%;*/
+    font-weight: 500;
+    margin-left: 150px;
+    -webkit-font-smoothing: antialiased;
+    /* -moz-osx-font-smoot */
+}
+#paragraph{
+    font-size: 100%;
+    font-weight: 100;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    color: #666666;
+    word-spacing: x;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    text-align: center;
+    line-height: 1cm;
+    -webkit-font-smoothing: antialiased;
+    /* -moz-osx-font-smoot */
+
+}
+input{
+ /*   height: 5px;
+    width: 30px;
+    background-color:*/
+    color: #003bde!important;
+    background: rgba(0,59,222,0.09);
+    border-width: 10px!important;
+    border-color: rgba(0,0,0,0);
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif!important;
+    text-transform: uppercase!important;
+    background-color: rgba(0,59,222,0.09);
+    margin-left: 350px;
+}
+#menu{
+    margin-top: -20px;
+}
+#whatweofferh1{font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #0ec3f9!important;
+    line-height: 1.6em;    
+    margin-right: 100px;
+    -webkit-font-smoothing: antialiased;
+    /* -moz-osx-font-smoot */
+
+}
+#whatweofferp{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+    font-size: 100%;
+    font-weight: 100;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    word-spacing: x;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    text-align: center;
+    line-height: 1cm;
+    margin-left: 30px;
+    -webkit-font-smoothing: antialiased;
+}
+#wwo{
+    text-align: center;
+    width: 870px;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+#custom{
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    /* text-transform: uppercase;? */
+    /* font-size: 16px; */
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    display: block;
+    max-width: 300px;
+    color: white;
+    /* -webkit-font-smoothing: antialiased; */
+    /* -moz-osx-font-smoot */
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+#appdev{
+    /* align-content: center; */
+    margin-left: 100px;
+}
+#h4c{
+    /* this is the computing colum paragraph css */
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    /* font-size: 300;} */
+    font-weight: 400;    
+    /* align-items: center;
+     */
+     /* display: block; */
+     display: flex;
+     text-align: center;
+     /* -webkit-font-smoothing: antialiased; */
+    /* -moz-osx-font-smoot */
+    }
+
+#computingparagraph{
+    text-align: center;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 2em;
+    /* -webkit-font-smoothing: antialised; */
+    -webkit-font-smoothing: antialiased;
+    /* -moz-osx-font-smoot */
+}
+#complete{ 
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    /* text-transform: uppercase;? */
+    /* font-size: 16px; */
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    display: block;
+    max-width: 300px;
+    color: white;
+    /* -webkit-font-smoothing: antialiased; */
+    /* -moz-osx-font-smoot */
+    margin-left: 500px;
+    margin-bottom:  -850px;
+
+
+}
+#consulting{
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    /* text-transform: uppercase;? */
+    /* font-size: 16px; */
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    display: block;
+    max-width: 300px;
+    color: white;
+    /* -webkit-font-smoothing: antialiased; */
+    /* -moz-osx-font-smoot */
+    margin-left: 900px;
+    /* margin-bottom: 1000px; */
+
+
+}
+#artboard{
+    margin-left: -450px;
+}
+#h4complete{
+    /* this is the computing colum paragraph css */
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    /* font-size: 300;} */
+    font-weight: 400;    
+    /* align-items: center;
+     */
+     /* display: block; */
+     display: flex;
+     text-align: center;
+     /* -webkit-font-smoothing: antialiased; */
+    /* -moz-osx-font-smoot */
+    }
+#pcomplete{
+    text-align: center;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 2em;
+    margin-bottom: 100px;
+    /* -webkit-font-smoothing: antialised; */
+    -webkit-font-smoothing: antialiased;
+    /* -moz-osx-font-smoot */
+    
+}
+#artboard04{
+    margin-left: 100px;
+
+}
+#pconsulting{
+    text-align: center;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 2em;
+    /* -webkit-font-smoothing: antialised; */
+    -webkit-font-smoothing: antialiased;
+    /* -moz-osx-font-smoot */
+
+}
+#h4consulting{
+    /* this is the computing colum paragraph css */
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    /* font-size: 300;} */
+    font-weight: 400;    
+    /* align-items: center;
+     */
+     /* display: block; */
+     display: flex;
+     text-align: center;
+     /* -webkit-font-smoothing: antialiased; */
+    /* -moz-osx-font-smoot */
+    margin-left: 80px;
+}
+#artboard7{
+    margin-left: 100px;
+
+}

@@ -1,0 +1,45 @@
+body{ 
+    background-color: rgb(2, 56, 2);
+    padding: 0%;
+    margin: 0%;
+    overflow-y: 0%;
+    overflow-y: 0%;
+
+}
+fieldset{
+    display: block;
+    text-align: center;
+    width: 250px;
+    margin:150px ;
+    margin-left: 450px;
+    height: 380px;
+}
+#imgj{
+    margin-top: -400px;
+}
+#img1{
+    margin-left: 30px;
+    margin-top:150px;
+
+}
+/* #img2{ */
+ /* margin-top: 150px; */
+ /* margin-left: 150px;\\ */
+/* } */
+#img3{
+    margin-left: 800px;
+ /* width: ; */
+ margin-top: -450px;
+}
+input{
+    height: 35px;
+    width: 90%;
+    margin: 10px;
+}
+button{
+    height: 30px;
+    margin: 20px;
+}
+h1{
+    color: rgba(255, 255, 255, 0.5);
+}

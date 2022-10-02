@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Grade_System.css">
+</head>
+<body>
+    <div id="Grade">
+       <H1 style="text-align: center;color: green; font-style:italic">WELCOME TO ADMISSION PORTAL</H1> 
+       <p style="color: rgb(101, 123, 101); text-align: center; text-decoration: lightblue;">You Can Check The Status of Your Admission By Supplying Your Details Below</p>
+        <fieldset style="height: 150px; border-radius: 20px;border-width: 3px;">
+            <label for="name" style="color:rgb(101, 123, 101);"> <b>Full Name</b><br>
+            <input type="text" style="width: 400px;" maxlength="20" id="fullName" required><br><br>
+            <b>Application ID</b><br>
+            <input id="ida" type="matric" style="width: 400px;">
+            </label><br><br>
+            <button onclick="checkGrade()"><b>CHECK STATUS</b></button>
+            <center>
+                <div id="ade"></div>
+            </center>
+            
+        </fieldset>    
+    </div>
+    <script>
+        function checkGrade() {
+            var a = fullName.value;
+            let b = ida.value;
+            if (b >= 40 && b <= 60){
+                alert("pass")
+                console.log(b);
+            }else if (b >= 61 && b <= 70) {
+                // alert("good")
+                ade.innerHTML = "<b>GOOD</b>"
+                ade.style.color = "green"
+            }
+        }
+    </script>
+</body>
+</html>

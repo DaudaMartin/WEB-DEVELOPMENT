@@ -1,0 +1,11 @@
+#div{
+    border: 2px solid #000000;
+    width: fit-content;
+    
+}
+#flex{
+    display: flex;
+    overflow-x: auto;
+    /* overflow-y: hidden; */
+    z-index: 0;
+}
